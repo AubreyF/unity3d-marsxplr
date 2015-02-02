@@ -14,6 +14,8 @@ Subshader {
 	ZTest Always Cull Off ZWrite Off Fog { Mode Off }
 
 CGINCLUDE
+// Upgrade NOTE: excluded shader from DX11, Xbox360, OpenGL ES 2.0 because it uses unsized arrays
+#pragma exclude_renderers d3d11 xbox360 gles
 // Upgrade NOTE: excluded shader from Xbox360 and OpenGL ES 2.0 because it uses unsized arrays
 #pragma exclude_renderers xbox360 gles
 // Common Cg code used by several SSAO passes below

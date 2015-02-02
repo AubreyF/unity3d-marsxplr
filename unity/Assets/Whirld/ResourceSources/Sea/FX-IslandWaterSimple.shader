@@ -37,6 +37,8 @@ Subshader {
 		Blend SrcAlpha OneMinusSrcAlpha
 		
 CGPROGRAM
+// Upgrade NOTE: excluded shader from DX11 and Xbox360; has structs without semantics (struct v2f members ref,bumpuv,viewDirZ)
+#pragma exclude_renderers d3d11 xbox360
 // Upgrade NOTE: excluded shader from OpenGL ES 2.0 because it uses non-square matrices
 #pragma exclude_renderers gles
 // Upgrade NOTE: excluded shader from Xbox360; has structs without semantics (struct v2f members ref,bumpuv,viewDirZ)

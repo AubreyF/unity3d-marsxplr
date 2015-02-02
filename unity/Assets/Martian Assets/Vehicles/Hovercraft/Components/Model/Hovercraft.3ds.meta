@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: df61e2ad7a1be433ea09280ef7ad9333
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bottom
+    100002: Cockpit
+    100004: //RootNode
+    100006: Intakes
+    100008: Layer0
+    100010: Mesh01
+    100012: Mesh02
+    100014: Mesh03
+    100016: Mesh04
+    100018: Mesh05
+    100020: Mesh06
+    100022: Mesh07
+    100024: Mesh08
+    100026: Spoilers
+    100028: Thruster
+    400000: Bottom
+    400002: Cockpit
+    400004: //RootNode
+    400006: Intakes
+    400008: Layer0
+    400010: Mesh01
+    400012: Mesh02
+    400014: Mesh03
+    400016: Mesh04
+    400018: Mesh05
+    400020: Mesh06
+    400022: Mesh07
+    400024: Mesh08
+    400026: Spoilers
+    400028: Thruster
+    2300000: Bottom
+    2300002: Cockpit
+    2300004: //RootNode
+    2300006: Intakes
+    2300008: Layer0
+    2300010: Mesh01
+    2300012: Mesh02
+    2300014: Mesh03
+    2300016: Mesh04
+    2300018: Mesh05
+    2300020: Mesh06
+    2300022: Mesh07
+    2300024: Mesh08
+    2300026: Spoilers
+    2300028: Thruster
+    2800000: __AssetImporterPreview
+    3300000: Bottom
+    3300002: Cockpit
+    3300004: //RootNode
+    3300006: Intakes
+    3300008: Layer0
+    3300010: Mesh01
+    3300012: Mesh02
+    3300014: Mesh03
+    3300016: Mesh04
+    3300018: Mesh05
+    3300020: Mesh06
+    3300022: Mesh07
+    3300024: Mesh08
+    3300026: Spoilers
+    3300028: Thruster
+    4300000: Model
+    4300002: Bottom
+    4300004: Cockpit
+    4300006: Intakes
+    4300008: Mesh01
+    4300010: Mesh02
+    4300012: Mesh03
+    4300014: Mesh04
+    4300016: Mesh05
+    4300018: Mesh06
+    4300020: Layer0
+    4300022: Spoilers
+    4300024: Mesh07
+    4300026: Mesh08
+    4300028: Thruster
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.89999998
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
