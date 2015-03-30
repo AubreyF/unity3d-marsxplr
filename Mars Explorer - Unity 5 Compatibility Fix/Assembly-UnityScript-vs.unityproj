@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{A1D73C68-594A-2A10-25D9-274C1C3BFEF8}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_5;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity 3/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity 3/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Martian Assets\GUI\Cursors\CustomCursor.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Game\CameraVehicle.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Game\Game.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Game\GameData.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Game\Messaging.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Game\MiniMap.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Game\PrefabHere.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Game\Settings.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Game\SoundEffect.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Lobby\Init.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Lobby\Lobby.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Lobby\LobbyDecor.js" />
+     <Compile Include="Assets\Martian Assets\Scripts\Lobby\LobbyStarfield.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Buggy\Components\Scripts\Buggy.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Buggy\Components\Scripts\BuggyWheel.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Buggy\Components\Tracks\Skidmarks.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Hovercraft\Components\HoverThrustClustOfDust.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Hovercraft\Components\HoverThrustMoonOrBust.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Hovercraft\Components\Hovercraft.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Jet\Components\Jet.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Jet\Components\JetThruster.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Lasers\Components\Rocket.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Materials\ThrustCone.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\ParticleSystems\EntryPoint.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Scripts\ColliderAtach.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Scripts\RamoSphere.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Scripts\Vehicle.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Scripts\VehicleBot.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Scripts\VehicleData.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Scripts\VehicleLocal.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Scripts\VehicleMe.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Scripts\VehicleNet.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Scripts\VehicleTrigger.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Tank\Components\Scripts\Tank.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Tank\Components\Scripts\TankMe.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Tank\Components\Scripts\TankTrack.js" />
+     <Compile Include="Assets\Martian Assets\Vehicles\Tank\Components\Scripts\TankTrackSimple.js" />
+     <Compile Include="Assets\Whirld\Core\WhirldIn.js" />
+     <Compile Include="Assets\Whirld\Core\World.js" />
+     <Compile Include="Assets\Whirld\Lib\Data\WhirldData.js" />
+     <Compile Include="Assets\Whirld\Lib\Data\WhirldLibrary.js" />
+     <Compile Include="Assets\Whirld\Lib\Meshes\MeshSerializer.js" />
+     <Compile Include="Assets\Whirld\Lib\Yielding\MonoBehaviourScript.js" />
+     <Compile Include="Assets\Whirld\ResourceSources\Base\BaseSimple.js" />
+     <Compile Include="Assets\Whirld\ResourceSources\Floor\FloorController.js" />
+     <Compile Include="Assets\Whirld\ResourceSources\JumpPoint\JumpPoint.js" />
+     <Compile Include="Assets\Whirld\ResourceSources\Sea\SeaData.js" />
+     <Compile Include="Assets\Whirld\ResourceSources\Terrain\TerrainController.js" />
+     <Compile Include="Assets\Whirld\Tools\WhirldLOD.js" />
+     <Compile Include="Assets\Whirld\Tools\WhirldObject.js" />
+     <Compile Include="Assets\Whirlds\Unity Island\WaterLightmapFog.js" />
+     <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Whirlds\Classics\Lava\Lava.shader" />
+     <None Include="Assets\Standard Assets\Blob-Shadow\ShadowProjection.shader" />
+     <None Include="Assets\Whirlds\Unity Island\seaFoamCoast\foamShaderGlow.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\MotionBlur.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpSpecDistort.shader" />
+     <None Include="Assets\Martian Assets\Vehicles\Materials\MiniMapMarker.shader" />
+     <None Include="Assets\Whirlds\Classics\Lava\FX-Lava Flowing Simple .shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\SSAOShader.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\GlowEffectDownsample.shader" />
+     <None Include="Assets\Standard Assets\Water\Sources\FX-Water Simple.shader" />
+     <None Include="Assets\Whirlds\Unity Island\seaFoamCoast\ReflFix.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Pro Standard Assets\Water\Sources\FX-Water.shader" />
+     <None Include="Assets\Whirld\ResourceSources\Sea\FX-IslandWaterFull.shader" />
+     <None Include="Assets\Whirlds\Unity Island\seaFoamCoast\foamShader.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\GrayscaleEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\SepiaToneEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\TwirlEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\VortexEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Whirlds\Unity Island\Standard Assets\Water\Sources\FX-Water NonReflect.shader" />
+     <None Include="Assets\Martian Assets\Vehicles\Materials\GlassGlowing.shader" />
+     <None Include="Assets\Martian Assets\Vehicles\Materials\ForceField.shader" />
+     <None Include="Assets\Whirld\ResourceSources\Sea\FX-IslandWaterSimple.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\EdgeDetectX.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zlib">
+ <HintPath>Assets\Whirld\Lib\Compression\Ionic.Zlib.dll</HintPath>
+ </Reference>
+ <Reference Include="TerrainControllerData">
+ <HintPath>Assets\Whirld\ResourceSources\Terrain\TerrainControllerData.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{0014E90A-152C-88C8-1F0B-5B30CD285C2F}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,11 @@
+[ab:Assets.unity3d]
+[ss]
+[rndFogColor:0.2445526,0.2968362,0.3508064]
+[rndFogDensity:0.0015]
+[rndAmbientLight:0.4959792,0.4675517,0.421973,0.51]
+[rndHaloStrength:0.5]
+[rndFlareStrength:1]
+
+{Floor;0,-35.1,0;0;1;Texture:#SeaFloor}
+{Sea;0;0;1;Mode:Tropic}
+{Base;-710.728,5.766,-347.034;0;1}
