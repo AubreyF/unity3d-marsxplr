@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Martian Assets\Scripts\Game\MiniMap.js">
+    <Files>
+      <File FileName="Assets\Martian Assets\Scripts\Game\MiniMap.js" Line="11" Column="21" />
+      <File FileName="Assets\Martian Assets\Scripts\Game\Settings.js" Line="1691" Column="20" />
+      <File FileName="Assets\Martian Assets\Scripts\Game\Game.js" Line="1" Column="1" />
+      <File FileName="Assets\Whirld\ResourceSources\Terrain\TerrainController.js" Line="139" Column="86" />
+      <File FileName="Assets\Whirld\Editor\WhirldWindowOut.js" Line="68" Column="19" />
+      <File FileName="Assets\Whirlds\Unity Island\Editor\UpdateTreeColors.js" Line="32" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
